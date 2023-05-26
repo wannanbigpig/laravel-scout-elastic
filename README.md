@@ -4,14 +4,18 @@ Elastic Driver for Laravel Scout
 ### Installation
 You can install the package via composer:
 
-`composer require wannanbigpig/laravel-scout-elastic`
+```shell
+composer require wannanbigpig/laravel-scout-elastic
+```
 
 Laravel will automatically register the driver service provider.
 
 Install elasticsearch-php client
 For use this library we recomend using the version at this (^7.9). reference: [elasticsearch/elasticsearch](https://github.com/elastic/elasticsearch-php/tree/7.9)
 
-`composer require elasticsearch/elasticsearch:"^7.9"`
+```shell
+composer require elasticsearch/elasticsearch:"^7.9"
+```
 
 ### Setting up Elasticsearch configuration
 After you've published the Laravel Scout package configuration, you need to set your driver to elasticsearch and add its configuration:
