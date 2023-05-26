@@ -1,5 +1,10 @@
 # laravel-scout-elastic
+
+[![Latest Stable Version](http://poser.pugx.org/wannanbigpig/laravel-scout-elastic/v)](https://packagist.org/packages/wannanbigpig/laravel-scout-elastic) [![Total Downloads](http://poser.pugx.org/wannanbigpig/laravel-scout-elastic/downloads)](https://packagist.org/packages/wannanbigpig/laravel-scout-elastic) [![Latest Unstable Version](http://poser.pugx.org/wannanbigpig/laravel-scout-elastic/v/unstable)](https://packagist.org/packages/wannanbigpig/laravel-scout-elastic) [![License](http://poser.pugx.org/wannanbigpig/laravel-scout-elastic/license)](https://packagist.org/packages/wannanbigpig/laravel-scout-elastic) 
+
 Elastic Driver for Laravel Scout
+
+--- 
 
 ### Installation
 You can install the package via composer:
@@ -136,5 +141,6 @@ https://github.com/ErickTamayo/laravel-scout-elastic
 
 https://github.com/laravel/scout/tree/10.x
 
+https://github.com/medcl/elasticsearch-analysis-ik
 ### License
 The MIT License (MIT).
