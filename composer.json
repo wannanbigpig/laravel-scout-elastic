@@ -19,12 +19,12 @@
     "laravel/scout": "^9.3|^10.0"
   },
   "require-dev": {
-    "elasticsearch/elasticsearch": "^7.9|^8.0",
+    "elasticsearch/elasticsearch": "^7.9",
     "mockery/mockery": "^1.0",
     "phpunit/phpunit": "^8.0|^9.3"
   },
   "suggest": {
-    "elasticsearch/elasticsearch": "Required to use the Elasticsearch engine (^7.9|^8.0)."
+    "elasticsearch/elasticsearch": "Required to use the Elasticsearch engine (^7.9)."
   },
   "autoload": {
     "psr-4": {
