@@ -129,6 +129,7 @@ More please see [Laravel Scout official documentation](https://laravel.com/docs/
 
 #### Reference：
 https://github.com/ErickTamayo/laravel-scout-elastic
+
 https://github.com/laravel/scout/tree/10.x
 
 ### License
