@@ -14,11 +14,13 @@ You can install the package via composer:
 composer require wannanbigpig/laravel-scout-elastic
 ```
 
-Laravel will automatically register the driver service provider.
-
-
-
 ### Setting up Elasticsearch configuration
+
+After installing, you should publish the Scout configuration file using the vendor:publish Artisan command. This command will publish the scout.php configuration file to your application's config directory:
+
+```shell
+php artisan vendor:publish --provider="Laravel\Scout\ScoutServiceProvider"
+```
 
 After you've published the Laravel Scout package configuration, you need to set your driver to elasticsearch and add its
 configuration:
